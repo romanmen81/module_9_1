@@ -5,5 +5,5 @@ def apply_all_func(int_list, *functions):
     return results
 
 # Пример использования функций
-print(apply_all_func([6, 20, 15, 9], max, min))  # {'max': 20, 'min': 6}
-print(apply_all_func([6, 20, 15, 9], len, sum, sorted))  # {'len': 4, 'sum': 50, 'sorted': [6, 9, 15, 20]}
+print(apply_all_func([6, 20, 15, 9], max, min))
+print(apply_all_func([6, 20, 15, 9], len, sum, sorted))
